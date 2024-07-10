@@ -1,17 +1,19 @@
 <template>
   <div>
-    <h1>OKE GAESSSSS</h1>
+    <Body />
   </div>
 </template>
 
 <script>
+import Body from '~/components/layouts/Body.vue';
+
 export default {
-  name: 'HomePage'
+  components: {
+    Body
+  }
 }
 </script>
 
 <style scoped>
-h1 {
-  color: #35495e;
-}
+
 </style>

@@ -1,0 +1,692 @@
+/* CSS */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*
+    1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*
+    2. Remove default margin
+  */
+* {
+    margin: 0;
+}
+
+/*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*
+    5. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/*
+    6. Remove built-in form typography styles
+  */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/*
+    7. Avoid text overflows
+  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/*
+    8. Create a root stacking context
+  */
+#root,
+#__next {
+    isolation: isolate;
+}
+
+/* CSS BODY */
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* HEADER SECTION */
+header {
+    width: 1443px;
+    height: 68px;
+    margin-top: 40px;
+    padding: 0px 100px;
+}
+
+header .navbar {
+    width: 1240px;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header .icon {
+    width: 219.54px;
+    height: 56px;
+    padding: 10px 0px;
+    margin-right: 209.46px;
+}
+
+header .nav {
+    width: 811px;
+    height: 68px;
+    display: inline-block;
+}
+
+header .nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul li {
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header .nav ul button {
+    padding: 20px 35px 20px 35px;
+    border-radius: 14px;
+    border: 1px solid #000000;
+    background-color: transparent;
+}
+
+header .nav ul .btn-text {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* CSS HERO SECTION */
+
+.hero {
+    margin: 70px 100px;
+    width: 1240px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.hero-typo {
+    width: 531px;
+    height: 481px;
+    margin-right: 108.54px;
+    gap: 35px;
+}
+
+.hero-typo h1 {
+    width: 531px;
+    height: 231px;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 76.56px;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+
+.hero-typo p {
+    width: 498px;
+    height: 112px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+.hero-img {
+    width: 600.46px;
+    height: 515px;
+    border: 1px;
+    margin-top: 70px;
+}
+
+.hero-typo button {
+    padding: 20px 35px 20px 35px;
+    border-radius: 14px;
+    background-color: #191A23;
+    gap: 10px;
+}
+
+
+.btn-typo {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    font-family: Space Grotesk;
+}
+
+/* CSS COMPANY LOGO SECTION */
+
+.logo {
+    margin-top: 70px;
+    margin-bottom: 115px;
+    padding: 0px 100px 0px 100px;
+    display: flex;
+}
+
+.logo img {
+    margin-right: 96px;
+}
+
+/* CSS SERVICE SECTION */
+
+.services {
+    padding: 0px 100px;
+    margin-top: 115px;
+    margin-bottom: 115px;
+}
+
+.sv-head {
+    align-items: center;
+    display: flex;
+}
+
+.sv-head h2 {
+    padding: 0px 7px;
+    border-radius: 7px;
+    background-color: #B9FF66;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 51.04px;
+    text-align: left;
+    margin-right: 40px;
+}
+
+.sv-head p {
+    width: 580px;
+    height: 46px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.97px;
+}
+
+/* CSS CARD SECTION */
+
+.card {
+    width: 1443px;
+    height: 1010px;
+    top: 1092px;
+    padding: 0px 100px;
+    gap: 40px;
+}
+
+.card-layout {
+    width: 1240px;
+    height: 1010px;
+    gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.headlink {
+    gap: 93px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.card-text h3 {
+    margin: 0;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.card-img img {
+    width: 210px;
+    height: 166.05px;
+    top: 2px;
+}
+
+.card-text2 {
+    margin-right: 57px;
+    display: flex;
+    align-items: center;
+}
+
+/* CARD 1 */
+
+.carding {
+    width: 600px;
+    height: 310px;
+    padding: 50px;
+    border-radius: 45px;
+    border: 1px solid #191A23;
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 0px 0px #191A23;
+}
+
+h3.up {
+    padding: 0px 7px;
+    border-radius: 7px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38.28px;
+    text-align: left;
+    background-color: #B9FF66;
+}
+
+h3.down {
+    width: 197px;
+    padding: 0px 7px;
+    border-radius: 7px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38.28px;
+    text-align: left;
+    background-color: #B9FF66;
+}
+
+.card-text2 a {
+    width: 108px;
+    height: 28px;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-decoration: none;
+    color: #000000;
+    margin: 6.5px 0;
+    margin-left: 15px;
+}
+
+/* CARD 2 */
+
+.carding2 {
+    width: 600px;
+    height: 310px;
+    padding: 50px;
+    border-radius: 45px;
+    border: 1px solid #191A23;
+    background-color: #B9FF66;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 0px 0px #191A23;
+}
+
+h3.up2 {
+    padding: 0px 7px;
+    border-radius: 7px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38.28px;
+    text-align: left;
+    background-color: #FFFFFF;
+}
+
+h3.down2 {
+    width: 178px;
+    padding: 0px 7px;
+    border-radius: 7px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38.28px;
+    text-align: left;
+    background-color: #FFFFFF;
+}
+
+/* CARD 3 */
+
+.carding3 {
+    width: 600px;
+    height: 310px;
+    padding: 50px;
+    border-radius: 45px;
+    border: 1px solid #191A23;
+    background-color: #191A23;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 0px 0px #191A23;
+}
+
+h3.up3 {
+    padding: 0px 7px;
+    border-radius: 7px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38.28px;
+    text-align: left;
+    background-color: #FFFFFF;
+}
+
+h3.down3 {
+    width: 161px;
+    padding: 0px 7px;
+    border-radius: 7px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38.28px;
+    text-align: left;
+    background-color: #FFFFFF;
+}
+
+.card-text2-3 {
+    margin-right: 57px;
+    display: flex;
+    align-items: center;
+}
+
+.card-text2-3 a {
+    width: 108px;
+    height: 28px;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 6.5px 0;
+    margin-left: 15px;
+}
+
+/* CARD 4 */
+
+h3.up4 {
+    width: 90px;
+    padding: 0px 7px;
+    border-radius: 7px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38.28px;
+    text-align: left;
+    background-color: #B9FF66;
+}
+
+h3.down4 {
+    width: 161px;
+    padding: 0px 7px;
+    border-radius: 7px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38.28px;
+    text-align: left;
+    background-color: #B9FF66;
+}
+
+
+/* CARD 5 */
+.carding5 {
+    width: 600px;
+    height: 310px;
+    padding: 50px;
+    border-radius: 45px;
+    border: 1px solid #191A23;
+    background-color: #B9FF66;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 0px 0px #191A23;
+}
+
+h3.up5 {
+    width: 133px;
+    padding: 0px 7px;
+    border-radius: 7px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38.28px;
+    text-align: left;
+    background-color: #FFFFFF;
+}
+
+h3.down5 {
+    width: 137px;
+    padding: 0px 7px;
+    border-radius: 7px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38.28px;
+    text-align: left;
+    background-color: #FFFFFF;
+}
+
+/* CARD 6 */
+
+.carding6 {
+    width: 600px;
+    height: 310px;
+    padding: 50px;
+    border-radius: 45px;
+    border: 1px solid #191A23;
+    background-color: #191A23;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 0px 0px #191A23;
+}
+
+h3.up6 {
+    padding: 0px 7px;
+    border-radius: 7px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38.28px;
+    text-align: left;
+    background-color: #B9FF66;
+}
+
+h3.down6 {
+    width: 138px;
+    padding: 0px 7px;
+    border-radius: 7px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38.28px;
+    text-align: left;
+    background-color: #B9FF66;
+}
+
+.card-text2-6 {
+    margin-right: 57px;
+    display: flex;
+    align-items: center;
+}
+
+.card-text2-6 a {
+    width: 108px;
+    height: 28px;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 6.5px 0;
+    margin-left: 15px;
+}
